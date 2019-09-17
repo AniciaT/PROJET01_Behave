@@ -5,33 +5,78 @@
         <meta name='viewport'
       content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
         <title>BEhave</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        
+       <link rel="stylesheet" type="text/css" href="navbar.css">
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
     </head>
+
     <body>
-        <div class="container-fluid">
-            <section class="homepage col-12">
-                <h1><a href="homepage.html">#behavegreen</a></h1>
-                <nav id=menu>Menu</nav>
-                    <ul>
-                        <li><a href="homepage.html">Accueil</a></li>
-                        <li><a href="problemes.html">Pourquoi Behave ?</a></li>
-                        <li><a href="solutions.html">Nos solutions</a></li>
-                        <li><a href="appli.html">L'appli Behave</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
+
+              
+      <nav class="navbar navbar-light navbar-1 white menuBar">
+      
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="#"><img src="pics/logo_BeHave.png" class="logo"></a>
+      
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
+          aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+      
+          <!-- Links -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
+          <!-- Links -->
+      
+        </div>
+        <!-- Collapsible content -->
+      
+      </nav>
+      <!--/.Navbar-->
+
+
+
+
+
+
+
+        </nav>
+
+        <div class="container">
+            <section class="homepage">
+                <h1>#behavegreen</h1>
             </section>
             <section class="problemes">
-                <h2><a href="problemes.html">Pourquoi utiliser Behave</a></h2>
-                <h3>Résumé (une ou deux lignes)</h3>
+                <h2>Pourquoi utiliser Behave</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </section>
             <section class="solutions">
-                <h2><a href="solutions.html"></a>Nos solutions</a></h2>
-                <h3>Résumé (une ou deux lignes)</h3>
+                <h2>Nos solutions</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </section>
-            <section class="appli">
-                <h2><a href="appli.html">L'appli Behave</a></h2>
-                <h3>Résumé (une ou deux lignes)</h3>
+            <section class="produit">
+                <h2>L'appli Behave</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <a title="Apple Store" href="https://www.apple.com/fr/ios/app-store/">Apple Store</a>
                 <a title="Google Play Store" href="https://play.google.com/store/apps?hl=fr">Google Play Store</a>
             </section>
@@ -49,6 +94,26 @@
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
+            </section>
+            <section class="formulaire">
+                <h2>Nous contacter</h2>
+                <form action="nouscontacter" method="post">
+                    <div>
+                        <label for="name">Nom :</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div>
+                        <label for="mail">E-mail :</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div>
+                        <label for="message">Message :</label>
+                        <textarea id="message" name="message"></textarea>
+                    </div>
+                    <div class="button">
+                    <button type="submit">Envoyer le message</button>
+                     </div>
+                </form>
             </section>
             <section class="footer">
                 <footer>
