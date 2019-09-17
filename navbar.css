@@ -1,31 +1,8 @@
-.menuBar{
-    width: 100%;
-    background-color: deeppink;
-    position: fixed;
-    margin: 0 0 30px 0;
-    padding: 5px;
-    font-family: 'Lexend Deca', sans-serif;
-}
-.logo{
-    width: 60px;
-}
 
-.fa-1x {
-    font-size: 1.5rem;
-    }
-    .navbar-toggler.toggler-example {
-    cursor: pointer;
-    }
-    .dark-blue-text {
-    color: #0A38F5;
-    }
-    .dark-pink-text {
-    color: #AC003A;
-    }
-    .dark-amber-text {
-    color: #ff6f00;
-    }
-    .dark-teal-text {
-    color: #004d40;
-    }
-    
+.logo{
+    margin: 5px 0 5px 5px;
+    padding: 0;
+}
+.color-menu{
+    color:#66c587;
+}
