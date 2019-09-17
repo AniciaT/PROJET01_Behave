@@ -9,7 +9,7 @@ body    {
     position: relative;
     background-color: blueviolet;
     margin: 0;
-    padding: 0;
+    padding-right: 20px;
     height: 500px;
 }
 
@@ -21,13 +21,14 @@ body    {
 .form1  {
     width: 400px;
     height: 400px;
-    margin: 0 auto;
     background-color: yellow;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    align-items: center ;
-    margin-right: 20px;
+    margin-left: -200px;
+    position: absolute;
+    left: 50%;
+    top: 10%;
 
 }
 
@@ -73,9 +74,11 @@ textarea {
 
     .form1  {
         position: absolute;
-        left: 60%;
+        left: 80%;
         top: 10%;
         margin: auto 0;
+        margin-left: -200px;
+
 
     }
 
@@ -98,9 +101,11 @@ textarea {
 
     .form1  {
         position: absolute;
-        left: 60%;
+        left: 80%;
         top: 10%;
         margin: auto 0;
+        margin-left: -200px;
+
 
     }
 
