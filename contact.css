@@ -1,13 +1,11 @@
 body    {
     margin: 0;
     padding: 0;
-    font-family: 'Asap', sans-serif;
     font-family: 'Lexend Deca', sans-serif;
 }
 
 .container_form  {
     position: relative;
-    background-color: blueviolet;
     margin: 0;
     padding-right: 20px;
     height: 500px;
@@ -21,7 +19,7 @@ body    {
 .form1  {
     width: 400px;
     height: 400px;
-    background-color: yellow;
+    background-color: rgba(205,204,204,0.7);
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -35,10 +33,12 @@ body    {
 .h1_contact {
     text-align: center;
     font-size: 3em;
+    margin-top:0;
 }
 
 
 .pour_le_flex_label_input {
+    margin: 0 25px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -58,6 +58,14 @@ textarea {
     
 }
 
+.fieldset1  {
+    width: 400px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+
+}
+
 @media only screen and (min-width:768px)  {
 
     .img_contact {
@@ -74,7 +82,7 @@ textarea {
 
     .form1  {
         position: absolute;
-        left: 80%;
+        left: 70%;
         top: 10%;
         margin: auto 0;
         margin-left: -200px;
@@ -101,7 +109,7 @@ textarea {
 
     .form1  {
         position: absolute;
-        left: 80%;
+        left: 70%;
         top: 10%;
         margin: auto 0;
         margin-left: -200px;
