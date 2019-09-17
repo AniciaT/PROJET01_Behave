@@ -3,3 +3,75 @@ body    {
     font-family: 'Lexend Deca', sans-serif;
 }
 
+.container_form  {
+    background-color: blueviolet;
+    margin: 20px 20px;
+    padding: 0;
+    height: auto;
+  /*  overflow: hidden;*/
+
+}
+
+.img_contact {
+    display: none;
+    min-width: 600px;
+
+}
+
+.form1  {
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center ;
+
+}
+
+.h1_contact {
+    text-align: center;
+    font-size: 3em;
+}
+
+
+.pour_le_flex_label_input {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+input, select {
+    width: 200px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 200px;
+    height: 100px;
+    
+}
+
+
+
+@media only screen and (min-width:961px)  {
+
+    .img_contact {
+        margin-left: 10%;
+        display: block;
+        position: relative;
+        width: 600px;
+        height: 450px;
+    
+    }
+
+    .form1  {
+        position: absolute;
+        left: 40%;
+        margin: auto 0;
+
+    }
+
+}
