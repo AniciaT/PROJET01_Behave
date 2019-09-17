@@ -1,31 +1,33 @@
 body    {
+    margin: 0;
+    padding: 0;
     font-family: 'Asap', sans-serif;
     font-family: 'Lexend Deca', sans-serif;
 }
 
 .container_form  {
+    position: relative;
     background-color: blueviolet;
-    margin: 20px 20px;
+    margin: 0;
     padding: 0;
-    height: auto;
-  /*  overflow: hidden;*/
-
+    height: 500px;
 }
 
 .img_contact {
     display: none;
-    min-width: 600px;
 
 }
 
 .form1  {
     width: 400px;
     height: 400px;
+    margin: 0 auto;
     background-color: yellow;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center ;
+    margin-right: 20px;
 
 }
 
@@ -51,25 +53,53 @@ input, select {
 textarea {
     width: 200px;
     height: 100px;
+    box-sizing: border-box;
     
 }
 
+@media only screen and (min-width:768px)  {
+
+    .img_contact {
+        display: block;
+        position: absolute;
+        width: 700px;
+        height: 500px;
+        top: 0;
+        left: 50%;
+        margin-left: -350px;
+    
+    }
+
+
+    .form1  {
+        position: absolute;
+        left: 60%;
+        top: 10%;
+        margin: auto 0;
+
+    }
+
+}
 
 
 @media only screen and (min-width:961px)  {
 
     .img_contact {
-        margin-left: 10%;
         display: block;
-        position: relative;
-        width: 600px;
-        height: 450px;
+        position: absolute;
+        width: 700px;
+        height: 500px;
+        top: 0;
+        left: 50%;
+        margin-left: -350px;
     
     }
 
+
     .form1  {
         position: absolute;
-        left: 40%;
+        left: 60%;
+        top: 10%;
         margin: auto 0;
 
     }
