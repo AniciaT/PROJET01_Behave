@@ -1,5 +1,5 @@
 /* Mobile Styles */
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 960px) {
     .container-contenu {
         position: relative;
      }
@@ -47,7 +47,7 @@
  
  /* Desktop Styles */
 
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 961px) {
  
      .container-contenu {
          width: 100%;
