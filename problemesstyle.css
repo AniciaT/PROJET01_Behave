@@ -3,14 +3,18 @@
     
 /* Mobile Styles */
 @media only screen and (max-width: 960px) {
-   .container-contenu {
+   body {
+        font-family: 'Lexend Deca', sans-serif;
+   }
+   
+    .container-contenu {
         position: relative;
+        height: 100%;
     }
 
     h1 {
-        margin-top: 3vw;
-        margin-left: 9vw;
-        font-family: 'Asap', sans-serif;
+        margin-left: 50px;
+        padding: 10px;
         font-size: 2em;
         font-weight: bold;
         color: #676767;
@@ -35,6 +39,7 @@
         padding: 50px;
         position: relative;
         background-color: rgba(255, 255, 255, 0.8);
+        text-align: justify;
     }
 
     
@@ -51,11 +56,15 @@
 
 @media only screen and (min-width: 961px) {
 
+    body {
+        font-family: 'Lexend Deca', sans-serif;
+   }
+
     .container-contenu {
+        padding-top: 5vw;
         width: 90%;
         height: 100%;
         display: block;
-        background-color: blue;
     }
 
     .container-color {
@@ -75,17 +84,21 @@
     }
 
     .texte {
+        margin-left: 50px;
         position: absolute;
-        top: 20vw; right: 45vw;
+        top: 20vw; right: 46vw;
         width: 45vw;
+        text-align: justify;
     }
 
     h1 {
+        position: relative;
+        top: 5px;
         margin-top: 30px;
-        font-family: 'Asap', sans-serif;
         font-size: 3em;
         font-weight: bold;
         color: #676767;
+        text-align: left;
     }
 
     p {
