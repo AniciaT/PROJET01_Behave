@@ -83,9 +83,11 @@
     .texte {
         margin-left: 50px;
         position: absolute;
-        top: 20vw; right: 40vw;
+        top: 15vw; right: 46vw;
         width: 45vw;
         text-align: justify;
+        max-width: 600px;
+
     }
 
     h1 {
