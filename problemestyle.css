@@ -60,7 +60,7 @@
     .container-contenu {
         padding-top: 5vw;
         width: 90%;
-        height: 100%;
+        height: 90%;
         display: block;
     }
 
@@ -83,7 +83,7 @@
     .texte {
         margin-left: 50px;
         position: absolute;
-        top: 16vw; right: 46vw;
+        top: 10vw; right: 46vw;
         width: 45vw;
         text-align: justify;
     }
