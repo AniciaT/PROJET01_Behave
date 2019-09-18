@@ -63,7 +63,6 @@
         height: 100%;
         display: block;
     }
-
     .container-color {
         position: absolute;
         background-color:#d0e5e9;
@@ -73,6 +72,7 @@
         opacity: 0.8;
     }
 
+
     .image {
         position: relative;
         width: 40vw;
@@ -80,10 +80,19 @@
         top: 5vw;
     }
 
-    .texte {
+    .texte-old {
         margin-left: 50px;
         position: absolute;
         top: 15vw; right: 46vw;
+        width: 45vw;
+        text-align: justify;
+        max-width: 600px;
+
+    }
+    .texte {
+        margin-left: 50px;
+        position: relative;
+        top: 5vw; left: 10vw;
         width: 45vw;
         text-align: justify;
         max-width: 600px;
