@@ -1,8 +1,19 @@
 
-.logo{
+.navbar-logo-vert{
     margin: 5px 0 5px 5px;
     padding: 0;
 }
 .color-menu{
     color:#66c587;
 }
+.navbar-texte-vert{
+    color : #66c587;
+    font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
+}
+.navbar-texte-blc{
+    color : #FFFFFF;
+    font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
+}
+
