@@ -127,7 +127,7 @@ body{
         justify-content: space-around;
         align-items: center;
         height: 80px;
-        border-top: 2px solid #E7D8BF;
+        border-top: 1px solid #66c58F;
     }
 
     .fa{
