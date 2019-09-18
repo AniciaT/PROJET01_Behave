@@ -47,7 +47,7 @@ body    {
 
 .form1  {
     width: 400px;
-    height: 400px;
+    height: 525px;
     background-color: rgba(205,204,204,0.8);
     display: flex;
     flex-flow: column wrap;
@@ -63,7 +63,8 @@ body    {
 .h1_contact {
     text-align: center;
     font-size: 3em;
-    margin-top:0;
+    margin-top:20px;
+    margin-bottom: 20px;
 }
 
 
@@ -76,15 +77,36 @@ body    {
 
 }
 
-input, select {
+.input_contact {
     width: 200px;
     box-sizing: border-box;
+    background-color: transparent;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: 2px solid #4a4a4a;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
+
+select {
+    width: 200px;
+    box-sizing: border-box;
+    background-color: transparent;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: 2px solid #4a4a4a;
+}
+
 
 textarea {
     width: 200px;
     height: 100px;
     box-sizing: border-box;
+    background-color: transparent;
+    margin-top: 20px;
+
     
 }
 
@@ -94,6 +116,32 @@ textarea {
     margin: 0;
     padding: 0;
 
+}
+
+
+
+#submit {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.container_label_input  {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.div_pour_centrer   {
+    margin-top: 20px;
+
+}
+
+.label_contact  {
+    margin-right: 20px;
 }
 
 @media only screen and (min-width:768px)  {
