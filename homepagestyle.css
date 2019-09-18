@@ -1,0 +1,299 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.nav {
+    text-align: right
+}
+    
+.nav ul li {
+    list-style-type: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+.green {
+    color: #00e37f;
+}
+
+.problemescontainer a {
+    color: rgb(250, 134, 153);
+    display:block;
+    text-align: right;
+}
+
+.solutionscontainer a {
+    color: rgb(250, 134, 153);
+}
+
+a:hover {
+    color: #00e37f;
+    text-decoration:none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 1vw 5vw;
+    background-image: url(https://images.unsplash.com/photo-1518399681705-1c1a55e5e883?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-size: 1em;
+    /*background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(https://images.unsplash.com/photo-1518399681705-1c1a55e5e883?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;*/
+    
+}
+
+.title {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -90%);
+    color: white;
+    /*border: 2px solid white;
+    padding: 20px;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4))*/
+}
+
+h1 {
+    font-size: 12vw;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2em;
+    color: #909090;
+    margin-bottom: 20px;
+ }
+ .summary {
+    font-size: 1.2em;
+    color: #00e37f;
+ }
+ .paragraph {
+    font-size: 1em;
+    color: #3e5149;
+ }
+
+ .problemescontainer {
+    margin: 50px 50px;
+    padding: 50px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100vw;
+ }
+
+ .solutionscontainer {
+    margin: 80px 50px;
+    padding: 50px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100vw;
+ }
+
+ .problemes {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0px;
+ }
+
+ .solutions {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 200px 0px 300px;
+ }
+
+ .problemesimg {
+    background-image: url(https://images.unsplash.com/photo-1474572522289-b09bbcaa9284?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3067&q=80);
+    background-size: cover;
+    height: 500px;
+    position: absolute;
+    top: 185px;
+    width: 100%;
+ }
+
+ .solutionsimg {
+    background-image: url(https://images.unsplash.com/photo-1466690519659-283ca81adf97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEzMDA0fQ&auto=format&fit=crop&w=2850&q=80);
+    background-size: cover;
+    height: 500px;
+    position: absolute;
+    top: 180px;
+    width: 100%;
+ }
+
+ .appimg {
+    background-image: url(https://images.unsplash.com/photo-1521829233439-1b21bf81523e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80);
+    background-size: cover;
+    background-position-x: -200px;
+    height: 500px;
+    position: absolute;
+    top: 150px;
+    width: 100%;
+ }
+
+.communaute {
+    margin-top: 350px;
+    text-align: center;
+    margin-bottom: 150px;
+ }
+
+.carousel-item{
+    height: 500px;
+} 
+.carousel-item img{
+    object-fit:cover;
+    min-height: 500px;
+    
+}
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px)
+{
+    h1 {
+        font-size: 6vw;
+    }
+
+    header {
+        background-position-y: -1100px;
+    }
+
+    .problemes {
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        margin: 15em 7em;
+        overflow: hidden;
+     }
+
+    .problemesimg {
+        background-image: url(https://images.unsplash.com/photo-1474572522289-b09bbcaa9284?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3067&q=80);
+        position: absolute;
+        top: 4em;
+        left: 10em;
+        height: 500px;
+        width: 50em;
+     }
+
+    .problemescontainer {
+        width: 35vw;
+        left: 10vw;
+        text-align: left;
+        
+     }
+
+    .pink {
+        height: 600px;
+        width: 60em;
+        background-color: rgb(252, 223, 228);
+        position: absolute;
+        top: 0px;
+        left: 40vw;
+    }
+
+    .solutions {
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        margin: 15em 7em;
+        overflow: hidden;
+        height: 600px;
+     }
+
+    .solutionsimg {
+        background-image: url(https://images.unsplash.com/photo-1466690519659-283ca81adf97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEzMDA0fQ&auto=format&fit=crop&w=2850&q=80);
+        position: absolute;
+        top: 3em;
+        left: -10em;
+        height: 500px;
+        width: 50em;
+        background-size: cover;
+     }
+
+    .solutionscontainer {
+        width: 100vw;
+        top: 5em;
+        left: 37vw;
+        text-align: left;
+        position: absolute;
+        
+     }
+
+    .blue {
+        height: 600px;
+        width: 52em;
+        background-color: rgb(196, 250, 245);
+        position: absolute;
+    }
+
+    .appimg {
+        background-image: url(https://images.unsplash.com/photo-1521829233439-1b21bf81523e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-x: -7vw;
+        background-position-y: -10vh;
+        position: absolute;
+        top: 4em;
+        left: 10em;
+        width: 50vw;
+    }
+
+    .greenbackground {
+        height: 600px;
+        width: 60em;
+        background-color: rgb(201, 243, 217);
+        position: absolute;
+        top: 0px;
+        left: 40vw;
+        text-align: right
+    }
+
+    .communaute {
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 150px;
+    }
+
+    .communaute h2 {
+        margin-bottom: 50px;
+    }
+
+    .carousel-item{
+        height: 700px;
+    } 
+    .carousel-item img{
+        position: absolute;
+        object-fit:cover;
+        top: 0;
+        left: 0;
+        min-height: 700px;
+        max-width: 80vw;
+    }
+
+    .carousel {
+        margin: 0 auto;
+        max-width: 80vw;
+      }
+
+    .carousel a {
+        color: #00e37f;
+    }
+    
+    .carousel a:hover {
+        color: pink;
+    }
+    
+
+}
