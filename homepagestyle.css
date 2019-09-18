@@ -4,18 +4,11 @@ body {
     font-family: 'Lexend Deca', sans-serif;
 }
 
-.nav {
-    text-align: right
-}
-    
-.nav ul li {
-    list-style-type: none;
+.navbar {
+    position: fixed;
+    justify-content: space-between
 }
 
-.nav ul li a {
-    text-decoration: none;
-    color: white;
-}
 .green {
     color: #00e37f;
 }
@@ -44,12 +37,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    font-size: 1em;
-    /*background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(https://images.unsplash.com/photo-1518399681705-1c1a55e5e883?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;*/
-    
+    font-size: 1em;    
 }
 
 .title {
@@ -76,10 +64,7 @@ h2 {
     color: #909090;
     margin-bottom: 20px;
  }
- .summary {
-    font-size: 1.2em;
-    color: #00e37f;
- }
+
  .paragraph {
     font-size: 1em;
     color: #3e5149;
@@ -120,7 +105,7 @@ h2 {
     background-size: cover;
     height: 500px;
     position: absolute;
-    top: 185px;
+    top: 150px;
     width: 100%;
  }
 
@@ -146,7 +131,6 @@ h2 {
 .communaute {
     margin-top: 350px;
     text-align: center;
-    margin-bottom: 150px;
  }
 
 .carousel-item{
@@ -157,7 +141,9 @@ h2 {
     min-height: 500px;
     
 }
-
+footer {
+    position: relative;
+}
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px)
@@ -263,7 +249,7 @@ h2 {
     .communaute {
         text-align: center;
         margin-top: 0px;
-        margin-bottom: 150px;
+        margin-bottom: -200px;
     }
 
     .communaute h2 {
