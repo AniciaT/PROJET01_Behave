@@ -1,0 +1,120 @@
+body    {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.container_form  {
+    position: relative;
+    margin: 0;
+    padding-right: 20px;
+    height: 500px;
+}
+
+.img_contact {
+    display: none;
+
+}
+
+.form1  {
+    width: 400px;
+    height: 400px;
+    background-color: rgba(205,204,204,0.7);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin-left: -200px;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+
+}
+
+.h1_contact {
+    text-align: center;
+    font-size: 3em;
+    margin-top:0;
+}
+
+
+.pour_le_flex_label_input {
+    margin: 0 25px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+input, select {
+    width: 200px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 200px;
+    height: 100px;
+    box-sizing: border-box;
+    
+}
+
+.fieldset1  {
+    width: 400px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+
+}
+
+@media only screen and (min-width:768px)  {
+
+    .img_contact {
+        display: block;
+        position: absolute;
+        width: 700px;
+        height: 500px;
+        top: 0;
+        left: 50%;
+        margin-left: -350px;
+    
+    }
+
+
+    .form1  {
+        position: absolute;
+        left: 70%;
+        top: 10%;
+        margin: auto 0;
+        margin-left: -200px;
+
+
+    }
+
+}
+
+
+@media only screen and (min-width:961px)  {
+
+    .img_contact {
+        display: block;
+        position: absolute;
+        width: 700px;
+        height: 500px;
+        top: 0;
+        left: 50%;
+        margin-left: -350px;
+    
+    }
+
+
+    .form1  {
+        position: absolute;
+        left: 70%;
+        top: 10%;
+        margin: auto 0;
+        margin-left: -200px;
+
+
+    }
+
+}
