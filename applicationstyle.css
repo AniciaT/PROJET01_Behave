@@ -1,6 +1,3 @@
-
-
-    
 /* Mobile Styles */
 @media only screen and (max-width: 960px) {
    body {
@@ -58,7 +55,7 @@
 
     body {
         font-family: 'Lexend Deca', sans-serif;
-   }
+    }
 
     .container-contenu {
         padding-top: 5vw;
