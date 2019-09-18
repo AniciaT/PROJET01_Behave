@@ -2,13 +2,42 @@ body    {
     margin: 0;
     padding: 0;
     font-family: 'Lexend Deca', sans-serif;
+    
+}
+
+.container_text {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-around;
+    margin: 70px 0 80px;
+
+}
+
+.text_contact   {
+    width: 600px;
+    margin: 10px 40px;
+    border: 0.5px solid #ababab;
+    padding: 20px;
+    color: #4a4a4a;
+    text-align: justify;
+
+
+}
+
+.span_contact   {
+    font-weight: 900;
+    color: #4a4a4a;
+
 }
 
 .container_form  {
     position: relative;
-    margin: 0;
+    margin: 40px 0 130px;
     padding-right: 20px;
     height: 500px;
+    color: #4a4a4a;
+    
 }
 
 .img_contact {
@@ -18,8 +47,8 @@ body    {
 
 .form1  {
     width: 400px;
-    height: 400px;
-    background-color: rgba(205,204,204,0.7);
+    height: 525px;
+    background-color: rgba(205,204,204,0.8);
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -27,13 +56,15 @@ body    {
     position: absolute;
     left: 50%;
     top: 10%;
+    color: #4a4a4a;
 
 }
 
 .h1_contact {
     text-align: center;
     font-size: 3em;
-    margin-top:0;
+    margin-top:20px;
+    margin-bottom: 20px;
 }
 
 
@@ -46,15 +77,36 @@ body    {
 
 }
 
-input, select {
+.input_contact {
     width: 200px;
     box-sizing: border-box;
+    background-color: transparent;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: 2px solid #4a4a4a;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
+
+select {
+    width: 200px;
+    box-sizing: border-box;
+    background-color: transparent;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: 2px solid #4a4a4a;
+}
+
 
 textarea {
     width: 200px;
     height: 100px;
     box-sizing: border-box;
+    background-color: transparent;
+    margin-top: 20px;
+
     
 }
 
@@ -66,6 +118,32 @@ textarea {
 
 }
 
+
+
+#submit {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.container_label_input  {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.div_pour_centrer   {
+    margin-top: 20px;
+
+}
+
+.label_contact  {
+    margin-right: 20px;
+}
+
 @media only screen and (min-width:768px)  {
 
     .img_contact {
@@ -74,7 +152,7 @@ textarea {
         width: 700px;
         height: 500px;
         top: 0;
-        left: 50%;
+        left: 40%;
         margin-left: -350px;
     
     }
@@ -101,7 +179,7 @@ textarea {
         width: 700px;
         height: 500px;
         top: 0;
-        left: 50%;
+        left: 40%;
         margin-left: -350px;
     
     }
