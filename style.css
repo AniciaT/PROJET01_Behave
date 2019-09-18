@@ -28,14 +28,4 @@ nav {
 }
 
 
-.Footer_Display_Col {
-    display: flex;
-    flex-direction:column;
-}
-
-.Footer_Display_Raw {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around
-}
 
