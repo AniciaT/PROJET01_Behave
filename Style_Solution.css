@@ -19,7 +19,7 @@
     .image {
         background-size: cover;
         position: absolute;
-        top: 320px;
+        top: 100%;
         width: 100%;
         display: flex;
         align-self: center
