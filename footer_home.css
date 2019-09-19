@@ -37,7 +37,7 @@ body{
 .Footer_Display_Raw {
     display: flex;
     flex-direction: row;
-    justify-content: space-around
+    justify-content: space-around;
 }
 
 * {-moz-box-sizing: border-box; box-sizing: border-box;}
