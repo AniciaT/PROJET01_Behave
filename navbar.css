@@ -48,18 +48,13 @@
         padding-bottom: 5em;
     }
     
-    
-
-
 
     }
     
     /* Desktop version */
     @media only screen and (min-width: 961px) {
     
-        * {-moz-box-sizing: border-box; box-sizing: border-box;}    
-    
-    
+      
         .link {
             color: black;
             margin:0,3vw,0,3vw;
