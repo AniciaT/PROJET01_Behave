@@ -110,7 +110,7 @@ h2 {
  }
 
  .problemesimg {
-    background-image: url(https://images.unsplash.com/photo-1474572522289-b09bbcaa9284?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3067&q=80);
+    background-image: url(img/monkey.jpg);
     background-size: cover;
     height: 500px;
     position: absolute;
@@ -174,12 +174,13 @@ footer {
      }
 
     .problemesimg {
-        background-image: url(https://images.unsplash.com/photo-1474572522289-b09bbcaa9284?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3067&q=80);
+        background-image: url(img/monkey.jpg);
+        background-position-x: -120px;
         position: absolute;
-        top: 4em;
+        top: 3em;
         left: 10em;
         height: 500px;
-        width: 50em;
+        width: 40vw;
      }
 
     .problemescontainer {
@@ -192,7 +193,7 @@ footer {
     .pink {
         height: 600px;
         width: 60em;
-        background-color: rgb(252, 223, 228);
+        background-color: rgb(250, 232, 235);
         position: absolute;
         top: 0px;
         left: 40vw;
@@ -226,29 +227,29 @@ footer {
         
      }
 
-    .blue {
+    .lightgreen {
         height: 600px;
         width: 52em;
-        background-color: rgb(196, 250, 245);
+        background-color: rgb(224, 255, 237);
         position: absolute;
     }
 
     .appimg {
         background-image: url(https://images.unsplash.com/photo-1521829233439-1b21bf81523e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80);
-        background-size: 100%;
         background-repeat: no-repeat;
-        background-position-x: -7vw;
-        background-position-y: -10vh;
+        background-position-x: -300px;
+        background-position-y: -13vh;
         position: absolute;
         top: 4em;
         left: 10em;
         width: 50vw;
+        height: 500px;
     }
 
-    .greenbackground {
+    .lightblue {
         height: 600px;
         width: 60em;
-        background-color: rgb(201, 243, 217);
+        background-color:#d0e5e9;
         position: absolute;
         top: 0px;
         left: 40vw;
