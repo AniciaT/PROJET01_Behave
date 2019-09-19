@@ -1,8 +1,8 @@
 @media only screen and (max-width: 960px) {
 
 footer {
-    position: absolute; 
-    bottom: -30vw;
+    position: relative; 
+    bottom: -70vw;
     left:0;
     right:0;
     font-family: 'Asap', sans-serif;
