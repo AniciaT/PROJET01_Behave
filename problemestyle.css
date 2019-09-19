@@ -60,7 +60,7 @@
     .container-contenu {
         padding-top: 10vw;
         width: 90%;
-        height: 90%;
+        height: 100%;
         display: block;
     }
 
@@ -69,23 +69,24 @@
         background-color:#EEC6C6;
         width: 45vw;
         height: 35vw;
-        right: 3vw;
+        right: 5vw;
         opacity: 0.8;
     }
 
     .image {
-        position: relative;
+        position: absolute;
         width: 40vw;
-        float: right;
-        top: 5vw;
+        right: 0vw;
+        top: 0vw;
     }
 
     .texte {
         margin-left: 50px;
         position: absolute;
-        top: 15vw; right: 46vw;
+        top: 15vw; left: 5vw;
         width: 45vw;
         text-align: justify;
+        max-width: 600px;
     }
 
     h1 {
