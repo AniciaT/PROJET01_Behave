@@ -34,16 +34,6 @@
 
 @media only screen and (max-width: 960px) {
 
-    footer {
-        position: absolute; 
-        bottom: -30vw;
-        left:0;
-        right:0;
-        font-family: 'Asap', sans-serif;
-        background-color: rgba(255, 255, 255, 0.8);;
-        font-size: 13px;
-        
-    }
     
     .link {
         color: black;
@@ -58,59 +48,7 @@
         padding-bottom: 5em;
     }
     
-    .Footer_Display_Col {
-        display: flex;
-        flex-direction:column;
-    }
     
-    .Footer_Display_Icon {
-        display: flex;
-        flex-direction:row;
-        justify-content: space-between;
-        width: 20%;
-    }
-    
-    .Footer_Display_Raw {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around
-    }
-    
-    * {-moz-box-sizing: border-box; box-sizing: border-box;}
-    
-    
-    .fa{
-        padding: 10px;
-        font-size: 30px;
-        width: auto;
-        text-align: center;
-        text-decoration: none;
-        margin: auto;
-        border-radius:50%
-    }
-    
-    
-    .fa:hover {
-        opacity: 0.7;
-    }
-    
-    .fa-facebook {
-        background: #3B5998;
-        color: white;
-    }
-    .fa-twitter {
-        background: #55ACEE;
-        color: white;
-    }
-    
-    .fa-instagram {
-        background: #f09433; 
-        background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
-        background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-        background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
-        color: white;}
-
 
 
 
@@ -121,16 +59,6 @@
     
         * {-moz-box-sizing: border-box; box-sizing: border-box;}    
     
-        footer {
-            position: absolute; 
-            bottom: -20vw;
-            left:0;
-            right:0;
-            font-family: 'Asap', sans-serif;
-            font-size: 13px;
-    
-        }
-        
     
         .link {
             color: black;
