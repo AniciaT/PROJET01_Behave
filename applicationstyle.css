@@ -74,9 +74,9 @@
 
 
     .image {
-        position: relative;
+        position: absolute;
         width: 40vw;
-        float: right;
+        right: 0vw;
         top: 5vw;
     }
 
@@ -92,7 +92,7 @@
     .texte {
         margin-left: 50px;
         position: relative;
-        top: 5vw; left: 10vw;
+        top: 5vw; left: 5vw;
         width: 45vw;
         text-align: justify;
         max-width: 600px;
