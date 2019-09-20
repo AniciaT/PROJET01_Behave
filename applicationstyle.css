@@ -32,8 +32,8 @@
     }
 
     .texte {
-        margin: 50px 50px;
-        padding: 8vw;
+        margin: 50px 0px;
+        padding: 0vw;
         position: relative;
         background-color: rgba(255, 255, 255, 0.8);
         text-align: justify;
