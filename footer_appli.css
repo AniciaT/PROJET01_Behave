@@ -1,13 +1,12 @@
 @media only screen and (max-width: 960px) {
 
 footer {
-    position: relative; 
-    bottom: -70vw;
-    left:0;
-    right:0;
-    font-family: 'Asap', sans-serif;
-    background-color: rgba(255, 255, 255, 0.8);;
-    font-size: 13px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: stretch;
+	align-content: stretch;
     
 }
 
@@ -79,7 +78,7 @@ body{
 }
 
 /* Desktop version */
-@media only screen and (min-width: 961px) {
+@media only screen and (min-width: 1350px) {
 
     * {-moz-box-sizing: border-box; box-sizing: border-box;}    
 
