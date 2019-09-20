@@ -1,0 +1,159 @@
+/* Mobile Styles */
+@media only screen and (max-width: 960px) {
+   body {
+        font-family: 'Lexend Deca', sans-serif;
+   }
+   
+    .container-contenu {
+        position: relative;
+        height: 600px;
+    }
+
+    h1 {
+        margin-left: 5vw;
+        padding: 1vw;
+        font-size: 2em;
+        font-weight: bold;
+        color: #676767;
+    }
+
+    .image {
+        background-size: cover;
+        height: 500px;
+        position: absolute;
+        top: 290px;
+        width: 100%;
+    }
+
+    p {
+        margin-left: 5vw;
+        margin-right: 5vw;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+
+    .texte {
+        margin: 50px 50px;
+        padding: 8vw;
+        position: relative;
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: justify;
+    }
+
+    
+    .logo {
+        margin: 5px 0 5px 5px;
+        padding: 0;
+    }
+    .color-menu {
+        color:#66c587;
+    }
+    .iPhoneMockup{
+        display: block;
+        width: 90%;
+    }
+    .iPhone{
+        
+        width:100%;
+        max-width: 600px;
+    }
+}
+
+/* Desktop Styles */
+
+@media only screen and (min-width: 961px) {
+
+    body {
+        font-family: 'Lexend Deca', sans-serif;
+    }
+
+    .container-contenu {
+        margin: 0 auto;
+        padding-top: 5vw;
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: stretch;
+        align-content: flex-start;
+    }
+
+
+
+    .image {
+        position: absolute;
+        width: 40vw;
+        right: 0vw;
+        top: 5vw;
+    }
+
+    .texte-old {
+        margin-left: 50px;
+        position: absolute;
+        top: 15vw; right: 46vw;
+        width: 45vw;
+        text-align: justify;
+        max-width: 600px;
+
+    }
+    .texte {
+
+        width: 45vw;
+        text-align: justify;
+        max-width: 450px;
+
+    }
+
+    h1 {
+        position: relative;
+        top: 5px;
+        margin-top: 30px;
+        font-size: 3em;
+        font-weight: bold;
+        color: #676767;
+        text-align: left;
+    }
+
+    p {
+        margin-top: 20px;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+    
+    .logo {
+        margin: 5px 0 5px 5px;
+        padding: 0;
+    }
+    
+    .color-menu {
+        color:#66c587;
+    }
+
+    .iPhone{
+        width:600px;
+        right : 0px;
+    }
+
+}
+
+@media only screen and (max-width: 1350px) {
+    .iPhoneMockup{
+display: block;
+    }
+
+    .container-contenu {
+        margin: 0 auto;
+        padding-top: 5vw;
+        width: 90%;
+        height: 100%;
+        
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            align-items: center;
+            align-content: stretch;
+        
+    }
+
+}
