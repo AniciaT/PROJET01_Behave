@@ -1,7 +1,7 @@
 # Behave
 
 <p align="center">
-  <img src="https://github.com/AniciaT/Behave/blob/master/img/Capture%20d%E2%80%99e%CC%81cran%202019-11-25%20a%CC%80%2014.22.48.png" alt="screenshot" height="3OO">
+  <img src="https://github.com/AniciaT/Behave/blob/master/img/Capture%20d%E2%80%99e%CC%81cran%202019-11-25%20a%CC%80%2014.22.48.png" alt="screenshot" height="8OO">
 <p>
 
 Projet 1 - Behave
