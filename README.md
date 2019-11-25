@@ -5,7 +5,7 @@
   <img src="https://github.com/AniciaT/Behave/blob/master/mockup_iphone/manimation_iphone.gif" alt="gif iphone" height="500">
 <p>
 
-Projet 1 - Behave
+Wild Code Shool - Projet 1 
 
 1er projet projet réalisé en HTML / CSS. Site responsif avec une approche mobile first.
 
